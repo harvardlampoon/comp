@@ -1,0 +1,85 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.course-description {
+  padding-top: 10px;
+}
+
+.course-sub-title {
+  font-style: italic;
+}
+
+.hu-banner-sig {
+  border-right: 1px solid #e5e5e5;
+}
+.hu-banner-sig img {
+  height: 27px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.hu-banner-title {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.course {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.course + .course {
+  border-top: 1px solid #e5e5e5;
+}
+
+.error_message {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.course-site-link {
+  font-weight: bold;
+  padding-right: 2em;
+}
+
+.site-type {
+  font-style: italic;
+  color: gray;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.course-list,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.h4 {
+  padding-top: 20px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* line-height: 40px; */
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
